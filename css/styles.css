@@ -1,0 +1,188 @@
+/*fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+
+
+/* UNIVERSAL */
+
+* {
+    transition-duration: 0.2s;
+}
+
+.min-height {
+    min-height: 600px;
+}
+
+.primary-font {
+    font-family: 'Lobster', serif;
+}
+
+.secondary-font {
+    font-family: 'Raleway', Sans-Serif;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.orange-text {
+    color: #F8512F;
+}
+
+.thin-text {
+    font-weight: 300;
+}
+.thick-text {
+    font-weight: 700;
+}
+
+.orange-bg {
+    background-color: #F8512F;
+}
+
+/*Navbar Styles*/
+
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: rgba(0,0,0,.75);
+    text-shadow: 2px 2px 2px #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    background-color: rgba(0,0,0,.25);
+    color: #f8512f; /*base orange*/
+}
+
+/*Carousel styles*/
+
+.item {
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+#wood-bg {
+    background-image: url('../img/wood-2.jpg');
+}
+
+#carousel-logo {
+    height: 200px;
+}
+
+.flex-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#seating-bg {
+    background-image: url('../img/restaurant-2.jpg');
+}
+
+.carousel-caption {
+    padding-bottom: 10em;
+}
+
+.btn-warning {
+    background-color: #f8512f;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #d34326;
+}
+
+#farm-bg {
+    background-image: url('../img/farm-2.jpg');
+}
+
+/*Our Story Styles*/
+
+#our-story .row {
+    margin-top: 30px;
+}
+
+#our-story h1 {
+    font-size: 6em;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px #515151;
+}
+
+#our-story h3 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.year-text {
+    position: absolute;
+    z-index: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: rgba(149, 147, 147, 0.2);
+}
+
+/*Review*/
+
+.fresno-bee {
+    background-image: url('../img/food_review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fresno-bee h1 {
+    font-size: 5em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.review {
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+}
+
+#review .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review p {
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*menu styles*/
+
+#menu {
+    background-image: url('../img/black_linen.png');
+}
+
+#menu h1 {
+    font-size: 5em;
+}
+
+.food-item {
+    background-color: #fff;
+    padding: 8px 6px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu .nav-tabs>li>a {
+    color: #f8512f;
+    font-weight: bold;
+}
+
+#menu .nav-tabs>li>a:hover {
+    background-color: rgba(255, 255, 255, .2);
+    border-color: transparent;
+}
+
+/**/
